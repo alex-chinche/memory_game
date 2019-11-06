@@ -15,7 +15,7 @@ class ViewController2: UIViewController, UICollectionViewDataSource {
         shuffledImages = roundImages.shuffled()
     }
     
-    //Shows toast showing number of tries left when you miss the round
+    //Shows toast with number of tries left when you miss the round
     func showToast(message : String) {
         let toastLabel = UILabel(frame: CGRect(x: self.view.frame.size.width/2 - 75, y: self.view.frame.size.height/1.15, width: 150, height: 35))
         toastLabel.textColor = UIColor.red
@@ -48,7 +48,7 @@ class ViewController2: UIViewController, UICollectionViewDataSource {
     //Button that, when pressed, dissapears and adds the image inside to a new array to compare it with the original one and pass the actual round
     @IBAction func imageButtonAction(_ sender: UIButton) {
         pressedImages.append(sender.backgroundImage(for: UIControl.State.normal)!)
-        sender.isHidden = true
+        sender.alpha = 0.3
     }
     
     //Resets array and shows images again
@@ -57,7 +57,7 @@ class ViewController2: UIViewController, UICollectionViewDataSource {
         for i in 0...roundImages.count - 1 {
             let index = IndexPath(row: i, section: 0)
             let cell = collectionOfImages.cellForItem(at: index) as! ImageCell
-            cell.imageButton.isHidden = false
+            cell.imageButton.alpha = 1
         }
     }
     
