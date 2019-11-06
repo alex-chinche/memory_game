@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F898E102369A0800068ED2B /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F898E0F2369A0800068ED2B /* ViewController3.swift */; };
 		7FC7D4412355DAE100E82788 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC7D4402355DAE100E82788 /* AppDelegate.swift */; };
 		7FC7D4432355DAE100E82788 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC7D4422355DAE100E82788 /* ViewController.swift */; };
 		7FC7D4462355DAE100E82788 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FC7D4442355DAE100E82788 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F898E0F2369A0800068ED2B /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		7FC7D43D2355DAE100E82788 /* memory_gane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memory_gane.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FC7D4402355DAE100E82788 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FC7D4422355DAE100E82788 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				7FC7D4402355DAE100E82788 /* AppDelegate.swift */,
 				7FC7D4422355DAE100E82788 /* ViewController.swift */,
 				7FE0F1F22359B9980048FCFC /* ViewController2.swift */,
+				7F898E0F2369A0800068ED2B /* ViewController3.swift */,
 				7FC7D4442355DAE100E82788 /* Main.storyboard */,
 				7FC7D4472355DAE800E82788 /* Assets.xcassets */,
 				7FC7D4492355DAE800E82788 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F898E102369A0800068ED2B /* ViewController3.swift in Sources */,
 				7FC7D4432355DAE100E82788 /* ViewController.swift in Sources */,
 				7FC7D4412355DAE100E82788 /* AppDelegate.swift in Sources */,
 				7FE0F1F32359B9980048FCFC /* ViewController2.swift in Sources */,

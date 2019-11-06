@@ -1,7 +1,9 @@
 
 import UIKit
 
+//Global parameters
 var totalScore = 0
+var currentTries = 5
 var numberOfImages = 2
 var imageLibrary: [UIImage] = [#imageLiteral(resourceName: "image3"), #imageLiteral(resourceName: "image2"), #imageLiteral(resourceName: "image1"), #imageLiteral(resourceName: "image7"), #imageLiteral(resourceName: "image4"), #imageLiteral(resourceName: "image6"), #imageLiteral(resourceName: "image5"), #imageLiteral(resourceName: "image8"), #imageLiteral(resourceName: "image9")]
 var roundImages: [UIImage] = []
@@ -20,13 +22,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         imageLibrary = [#imageLiteral(resourceName: "image3"), #imageLiteral(resourceName: "image2"), #imageLiteral(resourceName: "image1"), #imageLiteral(resourceName: "image7"), #imageLiteral(resourceName: "image4"), #imageLiteral(resourceName: "image6"), #imageLiteral(resourceName: "image5"), #imageLiteral(resourceName: "image8"), #imageLiteral(resourceName: "image9")]
         roundImages = []
-        scoreText.text = "Score: \(totalScore)"
+        scoreText.text = "Score: \(totalScore)/7"
         imageNumberText.text = "Image number: 0"
         playButtonOutlet.isHidden = false
     }
     
+    //Button that starts the game and shows the images to use in this round
     @IBAction func playButton(_ sender: Any) {
-        
         playButtonOutlet.isHidden = true
         for _ in 1...numberOfImages {
             let chosenImage = imageLibrary.randomElement()
