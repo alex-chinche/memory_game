@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:memory_gane.xcodeproj">
+      location = "self:/Users/alumnos/Desktop/Alex/ios alex/memory_game/memory_gane/memory_game.xcodeproj">
    </FileRef>
 </Workspace>

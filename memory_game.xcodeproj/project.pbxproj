@@ -19,7 +19,7 @@
 
 /* Begin PBXFileReference section */
 		7F898E0F2369A0800068ED2B /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
-		7FC7D43D2355DAE100E82788 /* memory_gane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memory_gane.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FC7D43D2355DAE100E82788 /* memory_game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memory_game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FC7D4402355DAE100E82788 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FC7D4422355DAE100E82788 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7FC7D4452355DAE100E82788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		7FC7D43E2355DAE100E82788 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7FC7D43D2355DAE100E82788 /* memory_gane.app */,
+				7FC7D43D2355DAE100E82788 /* memory_game.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7FC7D43C2355DAE100E82788 /* memory_gane */ = {
+		7FC7D43C2355DAE100E82788 /* memory_game */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FC7D44F2355DAE800E82788 /* Build configuration list for PBXNativeTarget "memory_gane" */;
+			buildConfigurationList = 7FC7D44F2355DAE800E82788 /* Build configuration list for PBXNativeTarget "memory_game" */;
 			buildPhases = (
 				7FC7D4392355DAE100E82788 /* Sources */,
 				7FC7D43A2355DAE100E82788 /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = memory_gane;
+			name = memory_game;
 			productName = memory_gane;
-			productReference = 7FC7D43D2355DAE100E82788 /* memory_gane.app */;
+			productReference = 7FC7D43D2355DAE100E82788 /* memory_game.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7FC7D4382355DAE100E82788 /* Build configuration list for PBXProject "memory_gane" */;
+			buildConfigurationList = 7FC7D4382355DAE100E82788 /* Build configuration list for PBXProject "memory_game" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7FC7D43C2355DAE100E82788 /* memory_gane */,
+				7FC7D43C2355DAE100E82788 /* memory_game */,
 			);
 		};
 /* End PBXProject section */
@@ -327,7 +327,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7FC7D4382355DAE100E82788 /* Build configuration list for PBXProject "memory_gane" */ = {
+		7FC7D4382355DAE100E82788 /* Build configuration list for PBXProject "memory_game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7FC7D44D2355DAE800E82788 /* Debug */,
@@ -336,7 +336,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FC7D44F2355DAE800E82788 /* Build configuration list for PBXNativeTarget "memory_gane" */ = {
+		7FC7D44F2355DAE800E82788 /* Build configuration list for PBXNativeTarget "memory_game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7FC7D4502355DAE800E82788 /* Debug */,
