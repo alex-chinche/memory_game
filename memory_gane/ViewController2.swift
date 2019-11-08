@@ -7,6 +7,7 @@ class ViewController2: UIViewController, UICollectionViewDataSource {
     @IBOutlet weak var im: UIImageView!
     var pressedImages: [UIImage] = []
     var shuffledImages: [UIImage] = []
+    var pressedButton = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,19 +46,21 @@ class ViewController2: UIViewController, UICollectionViewDataSource {
         return celda
     }
     
-    //Button that, when pressed, dissapears and adds the image inside to a new array to compare it with the original one and pass the actual round
+    //Button that, when pressed, vanishes and adds the image inside to a new array to compare it with the original one and pass the actual round
     @IBAction func imageButtonAction(_ sender: UIButton) {
-        pressedImages.append(sender.backgroundImage(for: UIControl.State.normal)!)
-        sender.alpha = 0.3
+            pressedImages.append(sender.backgroundImage(for: UIControl.State.normal)!)
+            sender.alpha = 0.5
+        sender.isEnabled = false
     }
     
     //Resets array and shows images again
-    @IBAction func editAgainButton(_ sender: Any) {
+    @IBAction func editAgainButton(_ sender: UIButton) {
         pressedImages = []
         for i in 0...roundImages.count - 1 {
             let index = IndexPath(row: i, section: 0)
             let cell = collectionOfImages.cellForItem(at: index) as! ImageCell
             cell.imageButton.alpha = 1
+            cell.imageButton.isEnabled = true
         }
     }
     
