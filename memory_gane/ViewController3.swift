@@ -7,13 +7,12 @@ class ViewController3: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         if(numberOfImages == 10) {
-            YouLostLabel.isHidden = true
-            YouWonLabel.isHidden = false
+            YouLostLabel.alpha = 0
         }
-        if currentTries == 0 {
-            YouLostLabel.isHidden = false
-            YouWonLabel.isHidden = true
+        if currentTries <= 0 {
+            YouWonLabel.alpha = 0
         }
     }
     
